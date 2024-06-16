@@ -1,3 +1,4 @@
+
 function Header() {
 
     return (
@@ -8,18 +9,19 @@ function Header() {
             <nav>
                 <ul>
                     <li>
-                        Home
+                        <a href="#">Home</a>
                     </li>
                     <li>
-                        About
+                        <a href="#">About</a>
                     </li>
                     <li>
-                        Services
+                        <a href="#">Services</a>
                     </li>
                     <li>
-                        Contacts
+                        <a href="#">Contacts</a>
                     </li>
                 </ul>
+                <hr></hr>
             </nav>
         </header>
     );
